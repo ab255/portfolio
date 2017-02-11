@@ -1,0 +1,31 @@
+/*font-family: 'Open Sans', sans-serif;*/
+/*import heroImage from '../assets/heroImage.png';*/
+
+main {
+  flex: 1;
+}
+.heroTitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  margin: 0;
+  padding-top: 50px;
+  font-size: 70px;
+  text-align: center;
+  height: 150px;
+}
+@media (max-width: 600px) {
+  .heroTitle{
+    font-size: 50px;
+    padding-top: 55px;
+    height: 20vw;
+  }
+}
+@media (max-width: 450px) {
+  .heroTitle{
+    font-size: 35px;
+    padding-top: 40px;
+    height: 20vw;
+  }
+}
