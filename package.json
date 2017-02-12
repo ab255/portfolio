@@ -2,6 +2,7 @@
   "name": "adamBernard",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://calm-dawn-88417.herokuapp.com/",
   "devDependencies": {
     "react-scripts": "0.8.4"
   },
