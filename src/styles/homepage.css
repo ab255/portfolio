@@ -1,0 +1,153 @@
+.homepage {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.image-holder{
+  display: flex;
+  flex-direction: column;
+}
+.big-image {
+  height: 560px;
+  width: 500px;
+  margin: 10px;
+}
+.small-image {
+  display: flex;
+  justify-content: center;
+  height: 270px;
+  width: 350px;
+  margin: 0px 30px 30px 30px;
+}
+.big-title-holder {
+  display: flex;
+  justify-content: center;
+  height: 560px;
+  width:500px;
+  color: rgba(0, 0, 0, 0.0);
+}
+.big-title-holder:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+.small-title-holder {
+  display: flex;
+  justify-content: center;
+  height: 270px;
+  width: 350px;
+  color: rgba(0, 0, 0, 0.0);
+}
+.small-title-holder:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+.big-title {
+  align-self: center;
+  font-size: 5em;
+}
+.small-title {
+  align-self: center;
+  font-size: 3.3em;
+}
+.dogs {
+  background-image: url(../../public/assets/Dogs.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: -10px;
+  margin-right: 40px;
+}
+.brew-pot {
+  background-image: url(../../public/assets/brewPot.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+}
+.disc-golf {
+  background-image: url(../../public/assets/discGolfBasket.png);
+  background-size: cover;
+  background-position: center;
+}
+.movie-theater {
+  background-image: url(../../public/assets/movieTheater.png);
+  background-size: cover;
+  background-position: center;
+}
+.mountain-lift {
+  background-image: url(../../public/assets/mountainLift.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+.rock-climbing {
+  background-image: url(../../public/assets/rockClimbing.png);
+  background-size: cover;
+  background-position: center;
+  margin-left: 40px;
+}
+
+@media (max-width: 960px){
+  .dogs {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  .rock-climbing {
+    margin-left: 10px;
+  }
+}
+  
+@media (max-width: 800px) {
+  .small-title-holder {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+  }
+  .big-title-holder {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+  }
+}
+
+@media (max-width: 510px){
+  .big-image {
+    height: 400px;
+    width: 350px;
+  }
+  .big-title-holder {
+    height: 400px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  .big-image{
+    height: 300px;
+    width: 250px;
+  }
+  .small-image {
+    height: 200px;
+    width: 250px;
+  }
+  .big-title-holder {
+    height: 300px;
+    width: 250px;
+  }
+  .small-title-holder {
+    height: 200px;
+    width: 250px;
+  }
+  .big-title {
+    font-size: 2em;
+  }
+  .small-title {
+    font-size: 2em;
+  }
+}

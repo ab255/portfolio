@@ -1,5 +1,5 @@
 import React from 'react';
-import About from './About';
+import Homepage from './Homepage';
 import '../styles/home.css';
 import heroImage from '../../public/assets/heroImage.png';
 
@@ -15,7 +15,7 @@ const Home = () => {
       <div style={ sectionStyle }>
         <h2 className='heroTitle'>Front End Engineer</h2>
       </div>
-      <About />
+      <Homepage />
     </main>
   )
 }
