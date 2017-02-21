@@ -5,12 +5,18 @@
   width: 500px;
 }
 .contact-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: #104455;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .contact-title {
-  flex: 2;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
   font-size: 2em;
   color: #FFF;
   text-align: center;
@@ -26,10 +32,19 @@
   background-color: #3AD3CD;
 }
 .contact-link {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .contact-link img {
   padding: 0 20px 0 0;
@@ -41,10 +56,13 @@ a p {
 
 @media (max-width: 600px) {
   .modal {
-    width: 250px;
+    width: 300px;
   }
   .contact-title {
     font-size: 1.5em;
     padding-left: 40px;
+  }
+  a p {
+    font-size: 1.25em;
   }
 }
