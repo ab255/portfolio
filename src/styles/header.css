@@ -1,7 +1,11 @@
 .container {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #104455;
   color: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-family: 'Roboto', sans-serif;
 }
@@ -18,12 +22,18 @@ a{
   text-decoration: none;
 }
 nav{
-  flex: 3;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
 }
 .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-size: 1em;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   list-style: none;
   margin: .5em 0 .5em auto;
   text-align: right;
@@ -38,10 +48,17 @@ nav a:hover {
   color: #000;
   background: #3AD3CD;
 }
+a:active {
+  color: #000;
+  background: #3AD3CD;
+}
 
 @media (max-width: 600px) {
   .container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .logo {
     margin-left: 0;

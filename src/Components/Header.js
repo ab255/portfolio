@@ -14,11 +14,14 @@ const Header = () => {
         </Link>
         <nav className='nav'>
           <div className='nav-links'>
+            <Link to='/'>
+              Home
+            </Link>
             <Link to='/projects'>
               Projects
             </Link>
             <a href='#footer'>Contact</a>
-            <a href='../assets/AdamBernardResume.pdf' target='_blank'>Resume</a>
+            <a href='../assets/AdamBernardResume.pdf' target='_blank' rel="noopener noreferrer">Resume</a>
           </div>
         </nav>
       </div>

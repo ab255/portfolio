@@ -8,13 +8,13 @@ const Footer = () => {
       <div className='container-footer'>
         <section>
           <ul>
-            <li><a href="https://github.com/ab255" target="_blank">
+            <li><a href="https://github.com/ab255" target="_blank" rel="noopener noreferrer">
               <img src="../assets/Github.png" alt="GitHub Page" title="Adam Bernard's GitHub Page" width="30" height="30" />
             </a></li>
-            <li><a href="https://twitter.com/AJBernard2" target="_blank">
+            <li><a href="https://twitter.com/AJBernard2" target="_blank" rel="noopener noreferrer">
               <img src="../assets/Twitter.png" alt="Twitter page" title="Adam Bernard's Twitter Page" width="30" height="25" />
             </a></li>
-            <li><a href="https://www.linkedin.com/in/ab255" target="_blank">
+            <li><a href="https://www.linkedin.com/in/ab255" target="_blank" rel="noopener noreferrer">
               <img src="../assets/LinkedIn.png" alt="LinkedIn page" title="Adam Bernard's LinkedIn Page" width="30" height="30" />
             </a></li>
             <li><a href="mailto:ab255@me.com">
@@ -26,7 +26,7 @@ const Footer = () => {
           <p>
             Adam Bernard
             <br/>
-            2717 W 34th Ave., Denver, CO 80211
+            Denver, CO 80211
           </p>
         </section>
       </div>
