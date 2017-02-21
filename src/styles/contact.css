@@ -1,0 +1,37 @@
+.contact-modal{
+  overflow-y: hidden;
+}
+.contact-header {
+  display: flex;
+  background-color: #104455;
+  align-items: center;
+}
+.contact-title {
+  flex: 2;
+  font-size: 2em;
+  color: #FFF;
+  text-align: center;
+  padding: 10px;
+  padding-left: 50px;
+}
+.close-button {
+  height: 30px;
+  width: 30px;
+  padding-right: 10px;
+}
+.contact-list {
+  background-color: #3AD3CD;
+}
+.contact-link {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contact-link img {
+  padding: 0 20px 0 0;
+}
+a p {
+  color: #000;
+  font-size: 1.5em;
+}
