@@ -15,7 +15,6 @@ class Modal extends React.Component {
       return null
 
     let modalStyle = {
-      width: '500px',
       position: 'absolute',
       top: '50%',
       left: '50%',
@@ -37,7 +36,7 @@ class Modal extends React.Component {
 
     return (
       <div className='contact-modal'>
-        <div style={modalStyle}>
+        <div style={modalStyle} className='modal'>
           <div className='contact-header'>
             <h2 className='contact-title'>Contact Information</h2>
             <img src='../assets/closeButton.svg' alt='Close Contact Modal'

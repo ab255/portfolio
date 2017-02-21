@@ -7,19 +7,19 @@ import weatherImage from '../../public/assets/weatherForecast.png';
 var cardImage = {
   backgroundImage: `url(${homeBrewImage})`,
   backgroundSize: "111%",
-  borderRadius: "10px 50px 0 0",
+  borderRadius: "10px 20px 0 0",
   height: "10em",
 };
 var cardImage2 = {
   backgroundImage: `url(${jetPackImage})`,
   backgroundSize: "140%",
-  borderRadius: "10px 50px 0 0",
+  borderRadius: "10px 20px 0 0",
   height: "10em",
 };
 var cardImage3 = {
   backgroundImage: `url(${weatherImage})`,
   backgroundSize: "100%",
-  borderRadius: "10px 50px 0 0",
+  borderRadius: "10px 20px 0 0",
   height: "10em",
 };
 

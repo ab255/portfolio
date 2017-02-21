@@ -10,7 +10,7 @@
 }
 .card {
   background-color: #FFF7E5;
-  border-radius: 10px 50px;
+  border-radius: 10px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,7 +18,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 25em;
+  height: 27em;
   margin: 1em .5em;
   width: 20em;
 }
@@ -35,7 +35,8 @@
   display: flex;
   font-size:1em;
   padding: 0 .5em;
-  height: 9em;
+  height: 11em;
+  line-height: 1.2em;
 }
 .card-link {
   color: #D32F2F;

@@ -40,9 +40,11 @@ class Header extends React.Component {
 
   openModal() {
     this.setState({ isModalOpen: true })
+    this.props.openModal()
   }
   closedModal() {
     this.setState({ isModalOpen: false })
+    this.props.closeModal()
   }
 }
  export default Header;

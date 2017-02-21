@@ -1,5 +1,8 @@
-.contact-modal{
+.contact-modal {
   overflow-y: hidden;
+}
+.modal {
+  width: 500px;
 }
 .contact-header {
   display: flex;
@@ -34,4 +37,14 @@
 a p {
   color: #000;
   font-size: 1.5em;
+}
+
+@media (max-width: 600px) {
+  .modal {
+    width: 250px;
+  }
+  .contact-title {
+    font-size: 1.5em;
+    padding-left: 40px;
+  }
 }
